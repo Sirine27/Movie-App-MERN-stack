@@ -1,5 +1,5 @@
 import React  from 'react';
-import {Form, FormControl} from "react-bootstrap"
+
 
 
 
@@ -11,8 +11,8 @@ const Filter = () => {
         <div>
  <h1 style={{marginBottom:'20px'}}>Movie App</h1>
 
-    <Form style={{marginBottom:'20px'}} className="d-flex">
-      <FormControl
+    
+      <input
         type="search"
         placeholder="Search"
         className="mr-2"
@@ -20,8 +20,7 @@ const Filter = () => {
       
       />
      
-     
-    </Form>
+ 
  
         </div>
     )
