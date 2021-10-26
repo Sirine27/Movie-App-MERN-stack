@@ -12,8 +12,8 @@ const Movie = ({movie}) => {
     const dispatch =useDispatch()
     return (
         <div>
-       <Card style={{marginLeft:'50px', marginBottom:'50px', backgroundColor:'#282c34', height:'450px', width: '270px' }}>
-  <Card.Img variant="top" style={{ width:'auto', height:'40%'}} src={movie.image} />
+       <Card style={{ marginLeft:'50px', marginBottom:'50px', backgroundColor:'white', height:'450px', width: '270px' }}>
+  <Card.Img variant="top" style={{ width:'auto', height:'45%'}} src={movie.image} />
   <Card.Body style={{'display': 'flex','flexDirection': 'column','justifyContent': 'center'}} >
   <Card.Title>{movie.title}</Card.Title>
     <Card.Text>{movie.date}</Card.Text>

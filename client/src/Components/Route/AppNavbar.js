@@ -35,8 +35,8 @@ export default function AppNavbar() {
             </div>
           ):(
           <div> 
-           <Button> <Register /></Button>
-           <Button><Login /></Button> 
+            <Register />
+           <Login />
           </div>)}
         </div>
 
