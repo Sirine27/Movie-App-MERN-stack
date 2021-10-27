@@ -12,13 +12,7 @@ const Filter = () => {
  <h1 style={{marginBottom:'20px'}}>Movie App</h1>
 
     
-      <input
-        type="search"
-        placeholder="Search"
-        className="mr-2"
-        aria-label="Search"
-      
-      />
+      <input type="search" placeholder="Search" className="mr-2" aria-label="Search"/>
      
  
  

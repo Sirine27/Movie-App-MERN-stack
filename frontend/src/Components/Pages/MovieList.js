@@ -21,7 +21,7 @@ const   MovieList = () => {
 
     return (
 <div style={{"display":"flex", 'flexDirection': 'column',"paddingTop":"100px"}}>
-        <div style={{"display":"flex", 'flexDirection': 'column',"align-items": "center"}}>
+        <div style={{"display":"flex", 'flexDirection': 'column',"alignItems": "center"}}>
         <Filter />
         </div>
         <div style={{"display":"flex", "flexWrap": "wrap","paddingTop":"50px"}}>
