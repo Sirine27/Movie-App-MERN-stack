@@ -26,7 +26,7 @@ const   MovieList = () => {
         </div>
         <div style={{"display":"flex", "flexWrap": "wrap","paddingTop":"50px"}}>
           
-        <div>
+        
 
 {loadMovies?(
               
@@ -35,6 +35,7 @@ const   MovieList = () => {
           ):movies.length === 0 ?(<h2>there is no data</h2>):(
               movies.map((el)=> <Movie key={el._id} movie={el}  /> )
           )}
+          <div>
 </div>
 
            <Link to="/dashboard"> <Button style={{"position":"fixed","bottom":"0","right": "0", "color":"red", "fontSize":"13px", "backgroundColor":"#181818", "width": "120px","border":"2px solid red"}}>Go To Home</Button></Link>

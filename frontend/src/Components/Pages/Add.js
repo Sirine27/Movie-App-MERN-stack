@@ -29,8 +29,8 @@ const handleChange = (e)=>{
 
 
     return(
-        <div style={{"position":"absolute","top":"100px","right":"300px","width": "500px", "color":"red", "fontSize":"13px", "backgroundColor":"#181818","border":"1px"}}>
-     <Form>
+        <div>
+     <Form style={{"position":"absolute","top":"100px","right":"300px","width": "500px", "fontSize":"13px"}}>
  
   <Form.Field>
       <label>Title</label>

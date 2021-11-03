@@ -8,7 +8,7 @@ const Home = () => {
         <div className="home">
             <AppNavbar />
             <img
-            style={{'width': '100%','height': '530px'}}
+            style={{'width': '100%','height': '100%'}}
             src="https://www.telerama.fr/sites/tr_master/files/styles/968x546/public/tra_tableaunetflix_0_0.jpg?itok=mQA8zgcA"
             alt=""
             />

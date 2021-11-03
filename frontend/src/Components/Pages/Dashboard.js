@@ -27,7 +27,7 @@ const Dashboard = () => {
                   alt=""
                   />
                       <Link to="/movieList"><Button style={{"position":"fixed","bottom":"40px","right": "0", "color":"red", "fontSize":"13px", "backgroundColor":"black", "width": "120px","border":"2px solid red"}}>Movie List</Button></Link>
-            <img style={{'width': '100%','height': '530px'}}
+            <img style={{'width': '100%','height': '100%'}}
             src="https://www.avcesar.com/source/actualites/00/00/65/75/top-50-des-meilleures-series-tv-la-moitie-pour-netflix_11543111.jpg"
             alt=""
             />
