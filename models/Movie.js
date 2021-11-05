@@ -5,7 +5,7 @@ const {Schema, model} = mongoose
 
 const movieSchema = new Schema(
   {
-    title: { type: String, required: true, unique: true },
+    title: { type: String, required: true, unique: true, trim: true },
     date: { type: Number, required: true  },
     description: { type: String, required: true},
     image: { type: String, required: true, unique: true },
@@ -17,5 +17,5 @@ const movieSchema = new Schema(
   },
   
 );
-
+movieSchema.index({ title: 'text' });
 module.exports= Movie = model('Movie', movieSchema);

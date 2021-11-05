@@ -5,6 +5,8 @@ const authRouter = require('./Routes/Auth');
 
 const movieRoute = require("./Routes/Movies");
 
+const filterRoute = require('./Routes/filter');
+
 
 const app = express()
 connectDB()
@@ -15,7 +17,7 @@ app.use(express.json())
 app.use("/api/auth", authRouter)
 // movie Routes
 app.use("/api/movies", movieRoute);
-
+app.use("/api/filter", filterRoute);
 
 const PORT = process.env.PORT || 6000
 //deploy
